@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 body {
   margin: 0;
@@ -37,3 +38,31 @@ body {
   line-height: 100%;
 }
 
+.location-text{
+  color: #F5F5F5;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 57.2px */
+  letter-spacing: -0.45px;
+}
+
+.italic-caption-text{
+  color: #A9A9A9;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 100%; /* 30px */
+}
+
+.trusted-by-header{
+  color: #91BEE0;
+  font-family: Montserrat;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 79.2px */
+  text-transform: uppercase;
+}
