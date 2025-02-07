@@ -19,6 +19,8 @@ ul{
 
 .navbar{
     width: 100vw;
+    position: absolute;
+    z-index: 99;
 }
 
 .navbar-container{
