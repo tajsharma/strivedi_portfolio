@@ -1,7 +1,8 @@
-.paralax-section{
+.paralax-section {
     display: flex;
-    height: 100vh; /* Full viewport height */
-    overflow: hidden;
+    height: 100vh;
+    overflow-x: visible; /* Allow horizontal overflow */
+    overflow-y: hidden;  /* Hide vertical overflow */
     position: relative;
     flex-direction: row;
 }
@@ -20,12 +21,13 @@
     width: 50vw;
 }
 
-.main-content-section{
-    flex: 1; /* Takes up the other half of the width */
-    overflow-y: auto; /* Enables vertical scrolling */
+.main-content-section {
+    flex: 1;
+    overflow-y: auto;    /* Keep vertical scrolling */
+    overflow-x: visible; /* Allow horizontal overflow */
     height: 100vh;
     width: 50vw;
-    justify-items: center;
+    position: relative;  /* For absolute positioning children */
 }
 
 .main-content-section::-webkit-scrollbar {
@@ -96,4 +98,41 @@ width: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.project-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 34.286px;
+    flex: 1 0 0;
+    width: auto;
+    height: 1117px;
+    padding: 206.598px 86.8px 206.402px 86px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-caption-pill-container{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 15px 17.143px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.inactive-pillbutton{
+    display: flex;
+    padding: 8.991px 23.376px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.193px;
+    border-radius: 449.532px;
+    border: 1px solid #F5F5F5;
+    color: #F5F5F5;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 16px */
 }
