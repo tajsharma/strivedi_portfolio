@@ -7,7 +7,7 @@ function Navbar({}){
             <div className="navbar-container">
                 <a href="logo.com">
                     <button className="logo poppins-semibold-nav-links"> 
-                        <img src="src/assets/Home/logo.png" alt="logo"></img>
+                        <img src="src/assets/Home/logos/logo.png" alt="logo"></img>
                     </button>
                 </a>
 
