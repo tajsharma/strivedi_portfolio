@@ -6,7 +6,9 @@ function Navbar({}){
         <nav className="navbar">
             <div className="navbar-container">
                 <a href="logo.com">
-                    <button className="logo poppins-semibold-nav-links"> Logo </button>
+                    <button className="logo poppins-semibold-nav-links"> 
+                        <img src="src/assets/Home/logo.png" alt="logo"></img>
+                    </button>
                 </a>
 
                 <div className="nav-links-container">
