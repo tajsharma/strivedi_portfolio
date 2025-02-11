@@ -56,13 +56,3 @@ body {
   font-weight: 500;
   line-height: 100%; /* 30px */
 }
-
-.trusted-by-header{
-  color: #91BEE0;
-  font-family: Montserrat;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 110%; /* 79.2px */
-  text-transform: uppercase;
-}
