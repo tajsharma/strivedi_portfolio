@@ -56,3 +56,13 @@ body {
   font-weight: 500;
   line-height: 100%; /* 30px */
 }
+
+.projects-header-text{
+  color: #9BC8EA;
+  font-family: Montserrat;
+  font-size: 278px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 278px */
+  text-transform: uppercase;
+}
