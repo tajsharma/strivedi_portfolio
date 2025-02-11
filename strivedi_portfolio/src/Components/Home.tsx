@@ -34,6 +34,24 @@ function Home(){
                             </div>
 
                             <div className="company-logo-container">
+                                <div className="logo-row">
+                                    <img className="logo-image" src="src/assets/Home/logos/microsoftlogo.svg" alt="microsoft">
+                                    </img>
+                                    <img className="logo-image" src="src/assets/Home/logos/runelogo.svg" alt="rune">
+                                    </img>                              
+                                </div>
+
+                                <div className="logo-row">
+                                    <img className="logo-image" src="src/assets/Home/logos/provokelogo.svg" alt="provoke">
+                                    </img>
+                                    <img className="logo-image" src="src/assets/Home/logos/exactscienceslogo.svg" alt="exact sciences">
+                                    </img>                                       
+                                </div>
+
+                                <div className="logo-row">
+                                    <img className="logo-image" src="src/assets/Home/logos/bridgewestlogo.svg" alt="bridgewest group">
+                                    </img>                         
+                                </div>
                                 
                             </div>
 
