@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css';
+import Navbar from './Navbar';
 
 function Home(){
     return(
@@ -10,13 +11,15 @@ function Home(){
                 </div>
                 <div className="main-content-section">
                     <div className="hero-div">
-                        <div className="hero-header hero-main-text">
-                            hi, im <span className="header-nametag">shayna</span> ;
-                        </div>
-                        <div className="hero-para hero-main-text">
-                            a UI/UX designer who merges creativity 
-                            and technology to create seamless, intuitive 
-                            user experiences.
+                        <div className="intro-text-div">
+                            <div className="hero-header hero-main-text">
+                                hi, im <span className="header-nametag">shayna</span> ;
+                            </div>
+                            <div className="hero-para hero-main-text">
+                                a UI/UX designer who merges creativity 
+                                and technology to create seamless, intuitive 
+                                user experiences.
+                            </div>
                         </div>
                         <div className="location-text">
                             📍 currently based in DTX
@@ -37,7 +40,6 @@ function Home(){
                         </div>
 
                     </div>
-
                 </div>
             </div>
         </div>
