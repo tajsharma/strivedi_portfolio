@@ -17,10 +17,12 @@ ul{
     display: flex;
 }
 
-.navbar{
-    width: 100vw;
-    position: absolute;
-    z-index: 99;
+.navbar {
+    width: 100vw;       /* Full viewport width */
+    position: absolute;  /* Position relative to main-content-section */
+    left: -50vw;         /* Shift left by 50% of viewport */
+    top: 0;
+    z-index: 999;
 }
 
 .navbar-container{
