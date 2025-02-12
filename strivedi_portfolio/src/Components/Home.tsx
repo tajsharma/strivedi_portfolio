@@ -72,10 +72,10 @@ function Home(){
                 </div>
 
                 <div className="project-section">
-                    <div className="project-container">
-                        <div className="project-info">
+                    <div className="project-container" id="project1">
+                        <div className="project-info-container">
                             <div className="project-name-text">
-                                Microsoft / NVIDIA VR CITY Simulation
+                                MICROSOFT / NVIDIA VR CITY Simulation
                             </div>
                             <div className="project-caption-pill-container">
                                 <button className="inactive-pillbutton">
@@ -104,12 +104,158 @@ function Home(){
                                 real-time 2D and 3D simulations.
                             </div>
 
+                            <div className="case-study-button-container">
+                                <button className="case-study-button">
+                                    View Case Study
+                                    <img src="src/assets/Home/arrow.png"></img>
+                                </button>
+                            </div>
+
                         </div>
 
                         <div className="project-visual">
                             <img src="src/assets/Home/devices/ipad.png" alt="ipad"></img>
+                            <img src="src/assets/Home/shadow.png" alt="shadow"></img>
                         </div>
                     </div>
+
+                    <div className="project-container" id="project2">
+                        <div className="project-info-container">
+                            <div className="project-name-text">
+                                KNOVVA AI TASK WORKFLOW DESIGN
+                            </div>
+                            <div className="project-caption-pill-container">
+                                <button className="inactive-pillbutton">
+                                    Desktop
+                                </button>
+                                <button className="inactive-pillbutton">
+                                    B2B
+                                </button>
+                                <button className="inactive-pillbutton">
+                                    AI
+                                </button>
+                                <button className="inactive-pillbutton">
+                                    Task Management/Tracking
+                                </button>
+                            </div>
+
+                            <div className="project-description-para">
+                                Created an intuitive platform for Knovva’s AI coworker, enabling
+                                real-time task tracking, progress updates, and seamless code 
+                                management tailored for enterprise clients.
+                            </div>
+
+                            <div className="case-study-button-container">
+                                <button className="case-study-button">
+                                    View Case Study
+                                    <img src="src/assets/Home/arrow.png"></img>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div className="project-visual">
+                            <img src="src/assets/Home/devices/macbook.png" alt="ipad"></img>
+                        </div>
+                    </div>
+
+
+                    <div className="project-container" id="project3">
+                        <div className="project-info-container">
+                            <div className="project-name-text">
+                                Exact Sciences Report Redesign
+                            </div>
+                            <div className="project-caption-pill-container">
+                                <button className="inactive-pillbutton">
+                                    A4
+                                </button>
+                                <button className="inactive-pillbutton">
+                                    Desktop
+                                </button>
+                                <button className="inactive-pillbutton">
+                                   Tablet
+                                </button>
+                                <button className="inactive-pillbutton">
+                                    B2B
+                                </button>
+                                <button className="inactive-pillbutton">
+                                    Client-Facing
+                                </button>
+                                <button className="inactive-pillbutton">
+                                    Healthcare UX
+                                </button>
+                            </div>
+
+                            <div className="project-description-para">
+                                Redesigned the Oncodetect patient report for Exact Sciences, 
+                                improving readability and clarity while maintaining medical 
+                                accuracy for both patients and providers
+                            </div>
+
+                            <div className="case-study-button-container">
+                                <button className="case-study-button">
+                                    View Case Study
+                                    <img src="src/assets/Home/arrow.png"></img>
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div className="project-visual-ipad">
+                            <img src="src/assets/Home/devices/ipadvertical.png" alt="ipad"></img>
+                            <img src="src/assets/Home/shadow.png" alt="shadow"></img>
+                        </div>
+                    </div>
+
+                    <div className="project-container" id="project3">
+                        <div className="project-info-container">
+                            <div className="project-name-text">
+                                <i>Solucky</i> fashion brand Web Design
+                            </div>
+                            <div className="project-caption-pill-container">
+                                <button className="inactive-pillbutton">
+                                    Desktop
+                                </button>
+                                <button className="inactive-pillbutton">
+                                    Tablet
+                                </button>
+                                <button className="inactive-pillbutton">
+                                   Mobile
+                                </button>
+                                <button className="inactive-pillbutton">
+                                    B2C
+                                </button>
+                                <button className="inactive-pillbutton">
+                                    Fashion
+                                </button>
+                                <button className="inactive-pillbutton">
+                                    Media
+                                </button>
+                                <button className="inactive-pillbutton">
+                                    Visual Storytelling
+                                </button>
+                            </div>
+
+                            <div className="project-description-para">
+                                Crafted a modern, visually striking website for Solucky, a fashion
+                                and media brand, blending stylish aesthetics with functionality to 
+                                create a creative and engaging platform.
+                            </div>
+
+                            <div className="case-study-button-container">
+                                <button className="case-study-button">
+                                    View Case Study
+                                    <img src="src/assets/Home/arrow.png"></img>
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div className="project-visual-ipad">
+                            <img src="src/assets/Home/devices/ipadvertical.png" alt="ipad"></img>
+                            <img src="src/assets/Home/shadow.png" alt="shadow"></img>
+                        </div>
+                    </div>
+
                 </div>
 
 
