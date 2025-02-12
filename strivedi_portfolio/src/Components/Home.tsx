@@ -203,7 +203,9 @@ function Home(){
 
                         <div className="project-visual-ipad">
                             <img className="ipad-vertical" src="src/assets/Home/devices/ipad2.png" alt="ipad"></img>
-                            <div className="radial-pattern-ipad-vertical"></div>
+                            <div className="shadow-container">
+                                <div className="radial-pattern-ipad-vertical"></div>
+                            </div>
                         </div>
                     </div>
 
