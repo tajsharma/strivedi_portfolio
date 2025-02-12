@@ -115,7 +115,7 @@ function Home(){
 
                         <div className="project-visual">
                             <img className="ipad-landscape" src="src/assets/Home/devices/ipad1.png" alt="ipad"></img>
-                            <img src="src/assets/Home/shadow.png" alt="shadow"></img>
+                            <div className="radial-pattern"></div>
                         </div>
                     </div>
 
@@ -207,7 +207,7 @@ function Home(){
                         </div>
                     </div>
 
-                    <div className="project-container" id="project3">
+                    <div className="project-container" id="project4">
                         <div className="project-info-container">
                             <div className="project-name-text">
                                 <i>Solucky</i> fashion brand Web Design
