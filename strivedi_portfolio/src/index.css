@@ -96,3 +96,13 @@ body {
   font-weight: 600;
   line-height: 130%; /* 28.6px */
 }
+
+.footer-nav-links-text-smaller{
+  color: #1C1C1C;
+  font-family: Poppins;
+  font-size: 19.8px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 28.6px */
+  text-decoration: underline;
+}
