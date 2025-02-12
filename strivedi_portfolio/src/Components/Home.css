@@ -195,6 +195,7 @@ width: 100%;
     flex-direction: column;
     align-items: center;
     width: 1070px;
+    gap:30px;
 }
 
 .project-visual-iphone{
@@ -216,10 +217,10 @@ width: 100%;
 }
 
 .radial-pattern-ipad-vertical{
+    width: 618px;
     height: 91.429px;
     flex-shrink: 0;
     align-self: stretch;
-    width: 100%;
     border-radius: 618px;
     background: radial-gradient(50% 50% at 50% 50%, #0E1011 0%, #1C1C1E 75%, rgba(245, 245, 245, 0.10) 100%);
     mix-blend-mode: overlay;
@@ -249,4 +250,11 @@ width: 100%;
     gap:30px;
     align-items: center;
     margin-top:150px;
+}
+
+.shadow-container{
+    height: 91px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
