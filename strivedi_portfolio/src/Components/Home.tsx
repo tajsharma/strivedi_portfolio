@@ -114,7 +114,7 @@ function Home(){
                         </div>
 
                         <div className="project-visual">
-                            <img src="src/assets/Home/devices/ipad.png" alt="ipad"></img>
+                            <img className="ipad-landscape" src="src/assets/Home/devices/ipad1.png" alt="ipad"></img>
                             <img src="src/assets/Home/shadow.png" alt="shadow"></img>
                         </div>
                     </div>
@@ -154,7 +154,8 @@ function Home(){
                         </div>
 
                         <div className="project-visual">
-                            <img src="src/assets/Home/devices/macbook.png" alt="ipad"></img>
+                            <img className="laptop" src="src/assets/Home/devices/laptop.png" alt="macbook"></img>
+                            <img src="src/assets/Home/shadow.png" alt="shadow"></img>
                         </div>
                     </div>
 
@@ -201,7 +202,7 @@ function Home(){
                         </div>
 
                         <div className="project-visual-ipad">
-                            <img src="src/assets/Home/devices/ipadvertical.png" alt="ipad"></img>
+                            <img className="ipad-vertical" src="src/assets/Home/devices/ipad2.png" alt="ipad"></img>
                             <img src="src/assets/Home/shadow.png" alt="shadow"></img>
                         </div>
                     </div>
@@ -236,7 +237,7 @@ function Home(){
                             </div>
 
                             <div className="project-description-para">
-                                Crafted a modern, visually striking website for Solucky, a fashion
+                                Crafted a modern, visually striking website for <i>Solucky</i>, a fashion
                                 and media brand, blending stylish aesthetics with functionality to 
                                 create a creative and engaging platform.
                             </div>
@@ -250,9 +251,9 @@ function Home(){
 
                         </div>
 
-                        <div className="project-visual-ipad">
-                            <img src="src/assets/Home/devices/ipadvertical.png" alt="ipad"></img>
-                            <img src="src/assets/Home/shadow.png" alt="shadow"></img>
+                        <div className="project-visual-iphone">
+                            <img className="iphone-image" src="src/assets/Home/devices/iphone2.png" alt="iphone"></img>
+                            <img className="iphone-image" src="src/assets/Home/devices/iphone1.png" alt="iphone"></img>
                         </div>
                     </div>
 
