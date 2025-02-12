@@ -252,8 +252,15 @@ function Home(){
                         </div>
 
                         <div className="project-visual-iphone">
-                            <img className="iphone-image" src="src/assets/Home/devices/iphone2.png" alt="iphone"></img>
-                            <img className="iphone-image" src="src/assets/Home/devices/iphone1.png" alt="iphone"></img>
+                            <div className="iphone-shadow-div">
+                                <img className="iphone-image" src="src/assets/Home/devices/iphone2.png" alt="iphone"></img>
+                                <div className="iphone-shadow"></div>
+                            </div>
+                            
+                            <div className="iphone-shadow-div2">
+                                <img className="iphone-image" src="src/assets/Home/devices/iphone1.png" alt="iphone"></img>
+                                <div className="iphone-shadow"></div>
+                            </div>
                         </div>
                     </div>
 
