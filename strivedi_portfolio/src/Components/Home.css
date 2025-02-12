@@ -166,6 +166,38 @@ width: 100%;
     line-height: 100%; /* 22px */
 }
 
+.icon-wrapper{
+    position: relative; /* Acts as a positioning container */
+    width: 20px; /* Match icon width */
+    height: 20px; /* Match icon height */
+}
+
+#icon {
+    width: 100%; /* Fill the wrapper */
+    height: 100%;
+    transition: opacity 0.3s ease;
+    position: absolute; /* Stack icons on top of each other */
+    top: 0;
+    left: 0;
+  }
+
+.case-study-button:hover{
+    border: 1.5px solid #030303;
+    background: #B4B2F0;
+    color:black;
+}
+.case-study-button:hover .white-icon{
+    opacity: 0;
+}
+
+.case-study-button:hover .black-icon{
+    opacity: 1;
+}
+
+.black-icon{
+    opacity: 0;
+}
+
 .project-visual{
     display: flex;
     flex-direction: column;
