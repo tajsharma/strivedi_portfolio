@@ -107,7 +107,10 @@ function Home(){
                             <div className="case-study-button-container">
                                 <button className="case-study-button">
                                     View Case Study
-                                    <img src="src/assets/Home/arrow.png"></img>
+                                    <div className="icon-wrapper">
+                                        <img className="white-icon"src="src/assets/Home/whitearrow.png" id="icon"></img>
+                                        <img className="black-icon"src="src/assets/Home/blackarrow.png" id="icon"></img>
+                                    </div>   
                                 </button>
                             </div>
 
@@ -148,7 +151,10 @@ function Home(){
                             <div className="case-study-button-container">
                                 <button className="case-study-button">
                                     View Case Study
-                                    <img src="src/assets/Home/arrow.png"></img>
+                                    <div className="icon-wrapper">
+                                        <img className="white-icon"src="src/assets/Home/whitearrow.png" id="icon"></img>
+                                        <img className="black-icon"src="src/assets/Home/blackarrow.png" id="icon"></img>
+                                    </div> 
                                 </button>
                             </div>
                         </div>
@@ -195,7 +201,10 @@ function Home(){
                             <div className="case-study-button-container">
                                 <button className="case-study-button">
                                     View Case Study
-                                    <img src="src/assets/Home/arrow.png"></img>
+                                    <div className="icon-wrapper">
+                                        <img className="white-icon"src="src/assets/Home/whitearrow.png" id="icon"></img>
+                                        <img className="black-icon"src="src/assets/Home/blackarrow.png" id="icon"></img>
+                                    </div> 
                                 </button>
                             </div>
 
@@ -247,7 +256,10 @@ function Home(){
                             <div className="case-study-button-container">
                                 <button className="case-study-button">
                                     View Case Study
-                                    <img src="src/assets/Home/arrow.png"></img>
+                                    <div className="icon-wrapper">
+                                        <img className="white-icon"src="src/assets/Home/whitearrow.png" id="icon"></img>
+                                        <img className="black-icon"src="src/assets/Home/blackarrow.png" id="icon"></img>
+                                    </div> 
                                 </button>
                             </div>
 
