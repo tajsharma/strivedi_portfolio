@@ -155,7 +155,7 @@ function Home(){
 
                         <div className="project-visual">
                             <img className="laptop" src="src/assets/Home/devices/laptop.png" alt="macbook"></img>
-                            <img src="src/assets/Home/shadow.png" alt="shadow"></img>
+                            <div className="radial-pattern"></div>
                         </div>
                     </div>
 
@@ -203,7 +203,7 @@ function Home(){
 
                         <div className="project-visual-ipad">
                             <img className="ipad-vertical" src="src/assets/Home/devices/ipad2.png" alt="ipad"></img>
-                            <img src="src/assets/Home/shadow.png" alt="shadow"></img>
+                            <div className="radial-pattern-ipad-vertical"></div>
                         </div>
                     </div>
 

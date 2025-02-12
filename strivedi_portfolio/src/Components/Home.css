@@ -98,7 +98,7 @@ width: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180deg, rgba(28,28,28,1) 0%, rgba(6,6,6,1) 81%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, #1C1C1C 0%, #0E1011 100%)
 }
 
 .project-container{
@@ -171,6 +171,7 @@ width: 100%;
     flex-direction: column;
     align-items: center;
     width: 1070px;
+    gap: 30px;
 }
 
 .ipad-landscape{
@@ -201,5 +202,27 @@ width: 100%;
     align-items: center;
     justify-content: center;
     width: 1070px;
+}
+
+.radial-pattern{
+    height: 91.429px;
+    flex-shrink: 0;
+    align-self: stretch;
+    width: 100%;
+    border-radius: 970px;
+    background: radial-gradient(50% 50% at 50% 50%, #0E1011 0%, #1C1C1E 75%, rgba(245, 245, 245, 0.10) 100%);
+    mix-blend-mode: overlay;
+    filter: blur(15.743440628051758px);
+}
+
+.radial-pattern-ipad-vertical{
+    height: 91.429px;
+    flex-shrink: 0;
+    align-self: stretch;
+    width: 100%;
+    border-radius: 618px;
+    background: radial-gradient(50% 50% at 50% 50%, #0E1011 0%, #1C1C1E 75%, rgba(245, 245, 245, 0.10) 100%);
+    mix-blend-mode: overlay;
+    filter: blur(15.743440628051758px);
 }
 
