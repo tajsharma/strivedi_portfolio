@@ -108,7 +108,7 @@ width: 100%;
     flex: 1 0 0;
     width: auto;
     padding: 206.598px 86.8px 206.402px 86px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -170,7 +170,7 @@ width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1070px;
+    width: 1070px;
 }
 
 .ipad-landscape{
@@ -193,12 +193,13 @@ width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 1070px;
 }
 
 .project-visual-iphone{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1070px;
+    width: 1070px;
 }
 
