@@ -38,22 +38,27 @@ function Home(){
 
                             <div className="company-logo-container">
                                 <div className="logo-row">
-                                    <img className="logo-image" src="src/assets/Home/logos/microsoftlogo.svg" alt="microsoft">
-                                    </img>
-                                    <img className="logo-image" src="src/assets/Home/logos/runelogo.svg" alt="rune">
-                                    </img>                              
+                                    <button className="company-logos">
+                                      <img className="logo-image" src="src/assets/Home/logos/microsoftlogo.svg" alt="microsoft"></img>  
+                                    </button>
+                                    <button className="company-logos">
+                                        <img className="logo-image" src="src/assets/Home/logos/runelogo.svg" alt="rune"></img>
+                                    </button>                              
                                 </div>
 
                                 <div className="logo-row">
-                                    <img className="logo-image" src="src/assets/Home/logos/provokelogo.svg" alt="provoke">
-                                    </img>
-                                    <img className="logo-image" src="src/assets/Home/logos/exactscienceslogo.svg" alt="exact sciences">
-                                    </img>                                       
+                                    <button className="company-logos">
+                                        <img className="logo-image" src="src/assets/Home/logos/provokelogo.svg" alt="provoke"></img>
+                                    </button>
+                                    <button className="company-logos">
+                                        <img className="logo-image" src="src/assets/Home/logos/exactscienceslogo.svg" alt="exact sciences"></img>
+                                    </button>                                       
                                 </div>
 
                                 <div className="logo-row">
-                                    <img className="logo-image" src="src/assets/Home/logos/bridgewestlogo.svg" alt="bridgewest group">
-                                    </img>                         
+                                    <button className="company-logos">
+                                        <img className="logo-image" src="src/assets/Home/logos/bridgewestlogo.svg" alt="bridgewest group"></img>
+                                    </button>                         
                                 </div>
                             </div>
                         </div>
