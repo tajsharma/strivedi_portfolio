@@ -226,3 +226,27 @@ width: 100%;
     filter: blur(15.743440628051758px);
 }
 
+.iphone-shadow{
+    width: 514px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 514px;
+    background: radial-gradient(50% 50% at 50% 50%, #0E1011 0%, #1C1C1E 75%, rgba(245, 245, 245, 0.10) 100%);
+    mix-blend-mode: overlay;
+    filter: blur(5.323793411254883px);
+}
+
+.iphone-shadow-div{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+}
+
+.iphone-shadow-div2{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+    margin-top:150px;
+}
