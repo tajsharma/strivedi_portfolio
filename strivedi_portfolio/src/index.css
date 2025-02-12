@@ -87,3 +87,12 @@ body {
   font-weight: 400;
   line-height: 180%; /* 39.6px */
 }
+
+.footer-nav-links-text{
+  color: #1C1C1C;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 28.6px */
+}
