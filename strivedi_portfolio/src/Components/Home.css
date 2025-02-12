@@ -166,9 +166,39 @@ width: 100%;
     line-height: 100%; /* 22px */
 }
 
+.project-visual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1070px;
+}
+
+.ipad-landscape{
+    max-width: 800px;
+}
+
+.ipad-vertical{
+    max-width: 550px;
+}
+
+.laptop{
+    max-width: 1000px;
+}
+
+.iphone-image{
+    max-width: 330px;
+}
+
 .project-visual-ipad{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.project-visual-iphone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1070px;
 }
 
