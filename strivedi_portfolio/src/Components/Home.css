@@ -98,6 +98,7 @@ width: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
+    background: linear-gradient(180deg, rgba(28,28,28,1) 0%, rgba(6,6,6,1) 81%, rgba(0,0,0,1) 100%);
 }
 
 .project-container{
@@ -106,7 +107,6 @@ width: 100%;
     gap: 34.286px;
     flex: 1 0 0;
     width: auto;
-    height: 1117px;
     padding: 206.598px 86.8px 206.402px 86px;
     justify-content: center;
     align-items: center;
@@ -136,3 +136,39 @@ width: 100%;
     font-weight: 500;
     line-height: 100%; /* 16px */
 }
+
+.project-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 57.143px;
+    max-width: 650px;
+}
+
+.project-visual{
+    display: flex;
+    flex-direction: column;
+}
+
+.case-study-button{
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.2px;
+    border-radius: 450px;
+    border: 1.5px solid #F5F5F5;
+    color: #F5F5F5;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 22px */
+}
+
+.project-visual-ipad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
